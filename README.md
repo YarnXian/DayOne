@@ -15,4 +15,15 @@ if str(UpsideNumber)[::-1] == str(UpsideNumber):
 else:
     print(False)
 ```
-在上面的案例中，我们定义一个数值`UpsideNumber`，然后我们将它倒序输出，如果倒序输出的值等于原数值，就可以判定这是回文数，反之则不是。
+在上面的案例中，我们定义一个数值`UpsideNumber`，然后我们将它倒序输出，如果倒序输出的值等于原数值，就可以判定这是回文数，反之则不是。同样地，`UpsideNumber`不仅仅可以是一个数值，它也可以是字符串。这样我们便可以检测回文联：
+
+
+```Python
+UpsideNumber = '天连水尾水连天'
+if str(UpsideNumber)[::-1] == str(UpsideNumber):
+    print(True)
+else:
+    print(False)
+```
+
+输出结果是True。
